@@ -1,8 +1,4 @@
 class ItemToPurchase:
-    item_name = ''
-    item_price = 0.00
-    item_quantity = 0
-
     def __init__(self):
         self.item_name = ''
         self.item_price = 0.00
