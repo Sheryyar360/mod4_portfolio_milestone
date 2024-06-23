@@ -1,12 +1,12 @@
 class itemToPurchase:
-    item_name = '0.00'
+    item_name = ''
     item_price = 0.00
     item_quantity = 0
 
     def __init__(self):
-        itemToPurchase.item_name = ''
-        itemToPurchase.item_price = 0.00
-        itemToPurchase.item_quantity = 0
+        self.item_name = ''
+        self.item_price = 0.00
+        self.item_quantity = 0
 
 product1 = itemToPurchase()
 product1.item_name = input('Enter name of product 1: ')
