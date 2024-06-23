@@ -1,4 +1,4 @@
-class itemToPurchase:
+class ItemToPurchase:
     item_name = ''
     item_price = 0.00
     item_quantity = 0
@@ -8,12 +8,12 @@ class itemToPurchase:
         self.item_price = 0.00
         self.item_quantity = 0
 
-product1 = itemToPurchase()
+product1 = ItemToPurchase()
 product1.item_name = input('Enter name of product 1: ')
 product1.item_price = float(input('Enter price of product 1: '))
 product1.item_quantity = int(input('Enter quantity of product 1: '))
 
-product2 = itemToPurchase()
+product2 = ItemToPurchase()
 product2.item_name = input('Enter name of product 2: ')
 product2.item_price = float(input('Enter price of product 2: '))
 product2.item_quantity = int(input('Enter quantity of product 2: '))
